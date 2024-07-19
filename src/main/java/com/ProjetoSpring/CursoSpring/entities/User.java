@@ -3,6 +3,9 @@ package com.ProjetoSpring.CursoSpring.entities;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.ArrayList;
 
 import jakarta.annotation.Generated;
@@ -26,6 +29,7 @@ public class User implements Serializable {
 	private String telefone;
 	private String password;
 
+	@JsonIgnore
 	@OneToMany(mappedBy = "client")
 	private List<Order> orders = new ArrayList<>();
 
