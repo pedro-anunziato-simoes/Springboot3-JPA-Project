@@ -29,6 +29,9 @@ public class User implements Serializable {
 	private String telefone;
 	private String password;
 
+	
+	
+	//Relação entre Usuario e pedido(Order)
 	@JsonIgnore
 	@OneToMany(mappedBy = "client")
 	private List<Order> orders = new ArrayList<>();
