@@ -1,7 +1,6 @@
 package com.ProjetoSpring.CursoSpring.entities.pk;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 import com.ProjetoSpring.CursoSpring.entities.Order;
 import com.ProjetoSpring.CursoSpring.entities.Product;
