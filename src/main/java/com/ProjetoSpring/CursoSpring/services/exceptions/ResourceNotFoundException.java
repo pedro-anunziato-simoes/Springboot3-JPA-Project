@@ -1,9 +1,9 @@
 package com.ProjetoSpring.CursoSpring.services.exceptions;
 
-public class ResourcesNotFoundExecption extends RuntimeException{
+public class ResourceNotFoundException extends RuntimeException{
 	private static final long serialVersionUID = 1L;
 
-	public ResourcesNotFoundExecption(Object id) {
+	public ResourceNotFoundException(Object id) {
 		super("Resouce not found. Id "+ id);
 	}
 
