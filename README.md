@@ -1,0 +1,1 @@
+Esse projeto foi feito com o intuito de documentar minha Evolução e avanço no curso de JAVA Spring e domunetar as funcionalidades e como elas são implementadas de forma pratica, utilizando um Banco de dados SQL
